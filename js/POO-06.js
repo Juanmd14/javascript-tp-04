@@ -56,7 +56,7 @@ class Libro {
   }
 
   // Metodo mostrar info del libro
-  
+
   mostrarLibro() {
     console.log(`
       El libro "${this._titulo}" con ISBN ${this._ISBN}, creado por el autor ${this._autor}, tiene páginas ${this._numeroPaginas}.`
@@ -77,9 +77,9 @@ libro2.mostrarLibro();
 // Comparar paginas
 
 if (libro1.numeroPaginas > libro2.numeroPaginas) {
-  console.log(`${libro1.titulo}" tiene mas paginas(${libro1.numeroPaginas}).`);
+  console.log(`${libro1.titulo} tiene mas paginas (${libro1.numeroPaginas}).`);
 } else if (libro2.numeroPaginas > libro1.numeroPaginas) {
-  console.log(`${libro2.titulo}" tiene mas paginas(${libro2.numeroPaginas}).`);
+  console.log(`${libro2.titulo} tiene mas paginas (${libro2.numeroPaginas}).`);
 } else {
   console.log(`Los 2 libros tienen la misma cantidad de paginas (${libro1.numeroPaginas}).`);
 }
