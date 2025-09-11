@@ -4,9 +4,9 @@
 
 
 let auto = {
-  color: "rojo",
-  marca: "Toyota",
-  modelo: "Corolla",
+  color: "Negro",
+  marca: "Ford",
+  modelo: "Focus",
   encendido: false,
 
   encender: function() {
